@@ -1,4 +1,4 @@
 # Scaffold Project
 
-**TODO: Add description**
+A Scaffold project using phoenix with umbrella
 
