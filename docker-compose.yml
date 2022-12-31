@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  scaffold_database:
+    container_name: scaffold_database_dev
+    image: postgres:12.3
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
